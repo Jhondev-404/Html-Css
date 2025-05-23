@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos de HTML5 </title>
+</head>
+<body>
+<h1>Inserindo vídeos hospedado localmente</h1>
+<p>Este video esta hospedado no meu servidor</p>
+ 
+
+  <video width=300px  poster="imagem/transferir (2).jpeg"  controls autoplay loop>
+ <source src="midia/we comes the sun.mp4" type="video/mp4">
+ <source src="midia/we comes the sun.mp4v" type="video/mp4v">
+ <source src="midia/we comes the sun.webm" type="video/webm">
+ <source src="midia/we comes the sun.ogv" type="video/ogv">
+ <p>Seu navegador não tem compatibilidade com reproduçãod de video</p>
+    
+ <!--AQUI ESTÃO DIFERENTES FORMATOS DE COMPATIMENTO COM OS NAVEGADORES (SEMPRE COLOCAR PQ NÃO SABEMOS EM QUAL NAVEGADOR O USUARIO IRA ABRIR OS PRINCIPAIS SÃO (mp4,mp4v,webm,ogv)) "poster=usado para adiconar uma capa no video"-->
+ <!--VIDEOS HOSPEDADOS DESSA MANEIRA RESULTA EM UM TRAFÉGO DE BANDA MUITO ALTO QUE PODE SER RUIM PARA O CLIENTE-->
+  </video>
+    
+<h1>Inserindo Videos do YuoTube</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EFmxPMdBqmU?si=QS7f4ngJHPOwdwAM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!--Este modelo permite pegar um video no yuo tube com a função "Incorporar" que aparece na aba de compartilhar depois copia o codigo gerado e cola no seu site html."Isso evita que o trafego de banda seja alto" -->
+
+
+
+</body>
+</html>

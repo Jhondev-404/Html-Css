@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1{ background-color: lightgray;
+            height: 300px;
+            width:300px ;
+
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: rgb(24, 22, 22); */ 
+           
+            border:10px solid darkslategray ;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+              
+            padding: 10px;
+
+            /*margin-top: 20px;
+            margin-right: 20px;
+            margin-bottom: 40px;
+            margin-left: 20px;*/
+              
+            margin: 20px auto 40px auto;
+                    
+
+            /*outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;*/
+            
+            outline: 5px dashed salmon ;
+
+        }
+          
+        a{
+          border-width: 10px;
+          border-style: solid;
+          border-color: blue;  
+        }
+    </style>
+<body>
+    <h1>Exemplo de caixa box-level</h1> <!--h1 e um exemplo de box level-->
+    <p>Parágrafo também sõa Exemplo de box-level, mas os <a href="#">Link são exemplos de caixas inline-level</a>.Vamos ver como tudo isso funciona.</p> <!-- <p> e um exemplo de inline-level-->
+</body>
+</html>
+ 
+
+<!--ESSA AS MELHORES MANEIRA PARA DEIXAR MAIS SIMPLIFICADO (border:10px solid darkslategray ;
+) (  padding: 10px;)   (margin: 20px auto 40px auto;)     ( outline: 5px dashed salmon ;)--> 
+
+
+
+
+<!-- da para inverter um box-level com um inline-level  adicionando display:block-!>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia em HTML5</title>
+</head>
+<body>
+    <H1>Imagem dinâmica</H1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente aumente e diminui o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="n.png" type="image/png">
+        <img src="grande.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h2>Aprendendo a Reproduzindo audio em HTML5 </h2>
+    <p><i>Musica Nostalgica</i></p>
+   <!-- <audio src="Elektronomia - Sky High _ Progressive House _ NCS - Copyright Free Music.mp3" controls autoplay></audio> -->
+    <!--Para caso o navegador não funcione o audio tem outros jeitos para colocar-->
+    <audio preload="metadata"autoplay controls loop>
+        <source src="Elektronomia - Sky High _ Progressive House _ NCS - Copyright Free Music.mp3" type="audio/mpeg">
+        <source src="Elektronomia - Sky High _ Progressive House _ NCS - Copyright Free Music.mp3" type="audio/ogg">
+        <source src="Elektronomia - Sky High _ Progressive House _ NCS - Copyright Free Music.mp3" type="audio/wav">  <!--são muito pesados-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio</p>
+        <a href="Elektronomia - Sky High _ Progressive House _ NCS - Copyright Free Music.mp3">Clique aqui para baixar o arquivo</a>
+    </audio>
+</body>
+</html>
+<!--ESSE E UM TESTE DE TAMANHO DE TELAS QUE E MUITO IMPORTANTE PARA USUARIO  PRESTAR A ATENCÃO NA ORDEM DA MENOR PARA MAIOR -->
