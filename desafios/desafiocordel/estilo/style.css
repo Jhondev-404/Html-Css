@@ -14,14 +14,15 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color:#8B5E3C;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 
 header{
     background-color: black;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-family: var(--fonte1);
     font-size: 2em;
@@ -53,7 +54,7 @@ section{
     line-height: 2em;
     padding-left: 30px;
     font-family:var(--fonte2) ;
-    font-size: 2em;
+    font-size: 4em;
    
 }
 
@@ -65,14 +66,39 @@ section{
  section.imagem{
     background-color: rgb(187, 154, 9);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+    background-attachment: fixed;
  }
 
  section.imagem >p{ 
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.623);
+    padding-bottom: 2em;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 2px 0px black;
 
  }
+
+  section#img01{
+    background-image: url(../img/rio-selvagem-na-paisagem-da-montanha.jpg);
+    background-position: center;
+    background-size: cover;
+
+  }
+
+
+  section#img02{
+    background-image: url(../img/bela-vista-de-pegadas-na-areia-durante-o-por-sol-na-praia-rio-de-janeiro.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  section#img03{
+    background-image: url(../img/bela-vista-de-uma-estrada-ao-nascer-sol-no-inicio-da-manha.jpg);
+     background-position: center;
+     background-size: cover;
+  }
 
 footer{
        background-color: black;
